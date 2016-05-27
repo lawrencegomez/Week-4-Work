@@ -1,0 +1,14 @@
+<h1>Welcome <%=@username%></h1>
+<h2>My skills</h2>
+<ul>
+  <li><%= @skills[0]%></li>
+  <li><%= @skills[1]%></li>
+  <li><%= @skills[2]%></li>
+</ul>
+
+<% @skills.each do |el| %>
+<li><%=el%></li>
+<%end%>
+
+<!-- this is an HTML comment that will show up in the HTML -->
+<%# this is a ruby comment that will not show up in the HTML %>

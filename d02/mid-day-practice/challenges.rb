@@ -89,9 +89,9 @@
 
 ###############################################################
 # Add hash to an array
-arr = [1,2,3]
-hash = {'a' => 'b', 'c'=>'d'}
-def new_array(arr,hash)
-  # p hash.keys + hash.values
-  p arr.push(hash.map { |key, value| key + value }.join.split('')).join.split('')
-end
+# arr = [1,2,3]
+# hash = {'a' => 'b', 'c'=>'d'}
+# def new_array(arr,hash)
+#   # p hash.keys + hash.values
+#   p arr.push(hash.map { |key, value| key + value }.join.split('')).join.split('')
+# end
